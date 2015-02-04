@@ -53,7 +53,7 @@ The macro will launch the notify.php script which will ping Slack with the answe
 ```
 
 
-Notes: This script was designed to be really flexible so it should work with whatever dialplan scheme you have. Also it's pretty faily simple at under 200 lines that if you know some basic PHP you should be able to easily add to it/build from here.  
+Notes: This script was designed to be really flexible so it should work with whatever dialplan scheme you have. Also it's fairly simple at under 200 lines that if you know some basic PHP you should be able to easily add to it/build from here.  
   
   
 p.s. If you enjoy this please drop me a line at mythicalbox@weavver.com and let me know how you're using it, it's nice to hear how my code is doing in the wild!
