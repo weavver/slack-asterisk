@@ -1,22 +1,22 @@
 # slack-asterisk
-Description: A PHP script for integrating Slack with Asterisk
+Description: A PHP script for integrating Slack with Asterisk  
 Repository: https://github.com/weavver/slack-asterisk
 
-Requirements:
-1. PHP: Tested against PHP 5.1.6
-2. Asterisk: Tested against Asterisk 1.4.29 
+Requirements:  
+1. PHP: Tested against PHP 5.1.6  
+2. Asterisk: Tested against Asterisk 1.4.29  
 
 Copy this script or check out this git repo to your Asterisk server under a folder such as /usr/src/slack-asterisk
 
 Usage: php notify.php channelname event arg1 arg2 etc
 ```
-     - Channel names should not include the #  
-     - Valid events:  
+     Channel names should not include the #  
+     Valid events:  
           incomingcall callerName callerNumber  
           outgoingcall callerName callerNumber destination  
           callanswered callerName callerNumber asteriskChannelId  
-           - the asteriskChannelId is used to look up the extension the call was connected to  
-           - we use this technique incase the dial command rings many phones  
+           |_ the asteriskChannelId is used to look up the extension the call was connected to  
+           |_ we use this technique incase the dial command rings many phones  
           callhungup callerName callerNumber  
 ```
 
