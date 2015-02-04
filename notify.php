@@ -14,7 +14,7 @@ function getCalledExtension($channel)
      //$output = exec('asterisk -rx "core show channels"');
      $output = exec('asterisk -rx "core show channel ' . $channel . '"', $arrayOut);
 
-     file_put_contents('/tmp/notify.log', $output);
+     //file_put_contents('/tmp/notify.log', $output);
 
      foreach ($arrayOut as &$value) {
     
